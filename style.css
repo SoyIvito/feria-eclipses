@@ -1,0 +1,107 @@
+/* ========================================
+   ESTILOS GENERALES
+   ======================================== */
+
+   body {
+    margin: 0;
+
+    /* font-family cambia el tipo de letra */
+    font-family: Arial, sans-serif;
+
+    /* background-color cambia el color del fondo */
+    background-color: #101827;
+
+    /* color cambia el color del texto */
+    color: white;
+}
+
+
+/* ========================================
+   ENCABEZADO
+   ======================================== */
+
+header {
+    background-color: #172554;
+
+    /* padding agrega espacio entre el contenido
+       y el borde del elemento */
+    padding: 30px;
+
+    /* text-align permite elegir dónde se ubica
+       el texto: left, center o right */
+    text-align: center;
+}
+
+
+header h1 {
+    font-size: 36px;
+}
+
+
+/* ========================================
+   CONTENIDO
+   ======================================== */
+
+main {
+    width: 80%;
+
+    /* margin agrega espacio alrededor
+       de un elemento */
+    margin: 30px auto;
+}
+
+
+/* ========================================
+   TARJETAS
+   ======================================== */
+
+.card {
+    background-color: #313538;
+
+    padding: 20px;
+
+    margin-bottom: 25px;
+
+    /* border crea un borde */
+    border: 2px solid #1b1645;
+
+    /* border-radius redondea las esquinas */
+    border-radius: 15px;
+}
+
+
+/* ========================================
+   IMÁGENES
+   ======================================== */
+
+.card img {
+    width: 400px;
+
+    /* max-width evita que la imagen
+       sea más grande que la tarjeta */
+    max-width: 100%;
+
+    border-radius: 10px;
+}
+
+
+/* ========================================
+   CONCLUSIÓN
+   ======================================== */
+
+.conclusion {
+    background-color: #312e81;
+}
+
+
+/* ========================================
+   PIE DE PÁGINA
+   ======================================== */
+
+footer {
+    background-color: #172554;
+
+    padding: 20px;
+
+    text-align: center;
+}
