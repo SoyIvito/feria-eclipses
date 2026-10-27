@@ -2,7 +2,11 @@
    ESTILOS GENERALES
    ======================================== */
 
-   body {
+* {
+    box-sizing: border-box;
+}
+
+body {
     margin: 0;
 
     /* font-family cambia el tipo de letra */
@@ -25,7 +29,7 @@ header {
 
     /* padding agrega espacio entre el contenido
        y el borde del elemento */
-    padding: 30px;
+    padding: 30px 20px;
 
     /* text-align permite elegir dónde se ubica
        el texto: left, center o right */
@@ -35,6 +39,7 @@ header {
 
 header h1 {
     font-size: 36px;
+    margin-top: 0;
 }
 
 
@@ -43,7 +48,8 @@ header h1 {
    ======================================== */
 
 main {
-    width: 80%;
+    width: 90%;
+    max-width: 900px;
 
     /* margin agrega espacio alrededor
        de un elemento */
@@ -75,11 +81,11 @@ main {
    ======================================== */
 
 .card img {
-    width: 400px;
-
-    /* max-width evita que la imagen
-       sea más grande que la tarjeta */
-    max-width: 100%;
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    display: block;
+    margin: 0 auto 15px auto;
 
     border-radius: 10px;
 }
@@ -104,4 +110,28 @@ footer {
     padding: 20px;
 
     text-align: center;
+}
+
+
+/* ========================================
+   DISEÑO RESPONSIVE (MÓVILES)
+   ======================================== */
+
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 26px;
+    }
+
+    main {
+        width: 95%;
+        margin: 15px auto;
+    }
+
+    .card {
+        padding: 15px;
+    }
+
+    ul {
+        padding-left: 20px;
+    }
 }
